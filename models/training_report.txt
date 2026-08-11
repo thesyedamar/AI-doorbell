@@ -1,0 +1,19 @@
+AiDarwaza Anti-Spoof Training Report
+Generated: 2026-03-20 04:52:57
+Dataset: NUAA
+==================================================
+
+AUC  : 0.9999
+FAR  : 0.0024
+FRR  : 0.0053
+
+TN=2037 FP=5 FN=16 TP=2988
+
+              precision    recall  f1-score   support
+
+        Real     0.9922    0.9976    0.9949      2042
+       Spoof     0.9983    0.9947    0.9965      3004
+
+    accuracy                         0.9958      5046
+   macro avg     0.9953    0.9961    0.9957      5046
+weighted avg     0.9959    0.9958    0.9958      5046

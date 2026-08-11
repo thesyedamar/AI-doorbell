@@ -1,0 +1,20 @@
+# Environment and local secrets
+.env
+.env.*
+!.env.example
+
+# Python runtime/cache outputs
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.venv/
+
+# OS/editor artifacts
+.DS_Store
+Thumbs.db
+
+# Optional local runtime artifacts
+logs/
+*.log
